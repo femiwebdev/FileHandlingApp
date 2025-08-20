@@ -19,3 +19,6 @@ def read_and_modify_file():
         print(f"Error: Permission denied when trying to read '{input_file}' or write to '{output_file}'.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+if __name__ == "__main__":
+    read_and_modify_file()
